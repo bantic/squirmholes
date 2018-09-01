@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.scrollport {
+  height: 200px;
+  width: 200px;
+  outline: 1px solid black;
+  overflow-y: scroll;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 5px solid red;
+}
