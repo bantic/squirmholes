@@ -14,7 +14,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      title: 'Squirmholes!',
       template: 'src/index.html'
     })
   ],
@@ -23,8 +23,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/
@@ -40,6 +39,6 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.tsx','.ts','.js']
+    extensions: ['.tsx', '.ts', '.js']
   }
 };
